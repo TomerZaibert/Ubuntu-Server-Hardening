@@ -1,7 +1,7 @@
 # Ubuntu Web Server Security Hardening
 
 ## Objective
-I decided to go for this project to gain hands-on experience in securing a web server by implementing industry best practices. My goal was to strengthen my understanding of system hardening, firewall configuration, and access control while working with essential technologies like Linux, Apache, MySQL, and SSH. By setting up and securing a LAMP stack, I aimed to enhance my ability to identify and mitigate common security vulnerabilities in web servers. This project allowed me to apply theoretical knowledge in a practical environment, reinforcing my skills in server security, network defense, and secure system administration.
+ The objective gain hands-on experience securing a web server by implementing real-world hardening techniques. This project involved setting up an Ubuntu-based LAMP stack (Linux, Apache, MySQL, PHP) and applying security measures to reduce potential attack surfaces.The goal was to improve my understanding of server security best practices and demonstrate my ability to configure and protect a web server from common threats.
 
 ## Write-Up
 
@@ -109,8 +109,8 @@ verified that MySQL was configured to only listen on localhost to prevent remote
 
 ![screenshot15 - checking mysql bind address](https://github.com/user-attachments/assets/a7998a04-e316-4612-aa39-ce7d5d42b644)
 
-tried to check the ports the MYSQL was listening to.
-Initially, MySQL did not return an expected result. after being stuck on it for awhile and further checked used a different command and ensured it was listening to the right ports and ip.
+tried checking the ports the MYSQL was listening to.
+faced some problems getting the expected resulsts from MySQL. after further checks i decided to use a different command to ensure it was listening to the right ports and with the correct IP.
 
 ![screenshot16 - ports check listening](https://github.com/user-attachments/assets/acd03f3f-0b60-4881-84c7-94a22afb21c2)
 
@@ -158,7 +158,9 @@ I verified open ports and firewall rules using the command 'sudo ss -tulnp' to e
 ### SSH Root Access Restrictions
 
 I tried testing the SSH root login to confirm it was disabled.
-i wasn't sure whether the restriction worked or not, after checking there was no password on the root user I was sure that the SSH root access was restricted as I intended.
+
+I wasn't sure whether the restriction worked or not, so I decided to check if there was a password on the root user, even though that by default it shouldn't have. 
+Seeing there was no password meant that the SSH root access was restricted as I intended.
 
 ![screenshot25 - rootpassword check](https://github.com/user-attachments/assets/f478b218-3abf-4585-91d7-f9003ead25e9)
 
@@ -186,8 +188,7 @@ Restricted MySQL to localhost only (127.0.0.1).
 
 ## Conclusion
 
-I completed this project to enhance my skills in securing a web server. I installed and configured the LAMP stack while implementing essential security hardening measures. I secured Apache, restricted MySQL access, and hardened SSH configurations to prevent unauthorized access. Additionally, I configured firewall rules using UFW to allow only necessary traffic and enabled automatic security updates for ongoing protection. To validate the security measures, I tested SSH restrictions, verified open ports, and confirmed that all security policies were correctly applied. This project allowed me to gain hands-on experience in web server security and demonstrate my ability to implement real-world cybersecurity best practices.
-
+Doing this project gave me practical experience in securing a web server, from initial setup to applying security hardening techniques. I enjoyed figuring out the right settings and finding the best practices for making a secure web server while cross-referecing sources. I configured SSH to prevent unauthorized access, fine-tuned firewall rules to allow only necessary traffic, and hardened Apache and MySQL to minimize exposure to vulnerabilities. This small project reinforced my Linux administration skills and strengthened my understanding of cybersecurity fundamentals in a real-world environment.
 
 
 
