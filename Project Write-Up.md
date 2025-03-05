@@ -1,4 +1,4 @@
-# Ubuntu Web Server Security Hardening
+# Web Server Security Hardening
 
 ## Objective
  The objective gain hands-on experience securing a web server by implementing real-world hardening techniques. This project involved setting up an Ubuntu-based LAMP stack (Linux, Apache, MySQL, PHP) and applying security measures to reduce potential attack surfaces.The goal was to improve my understanding of server security best practices and demonstrate my ability to configure and protect a web server from common threats.
@@ -185,6 +185,9 @@ Restricted MySQL to localhost only (127.0.0.1).
 ![screenshot23 - ufw verbose check](https://github.com/user-attachments/assets/8b199783-6ef7-449c-b879-0653aa3312c6)
 
 ![screenshot24 - ufw verbose after fixes](https://github.com/user-attachments/assets/19bdc3bc-2eab-4ffc-9f45-cc4a6b99b8c7)
+
+These final changes made sure the server was secure and ready to deploy.
+
 
 ## Conclusion
 
