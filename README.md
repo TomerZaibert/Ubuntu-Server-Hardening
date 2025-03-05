@@ -1,5 +1,9 @@
 # Web Server Security Hardening
 
-This project focuses on securing a web server by installing and configuring LAMP (Linux, Apache, MySQL, PHP) while implementing security best practices such as firewall configuration, SSH hardening, and database security. The setup follows a structured approach to minimize attack vectors and ensure the server is resilient against common threats.
+In this project, I worked on securing a web server by setting up and configuring LAMP (Linux, Apache, MySQL, PHP) while applying key security best practices. This included hardening SSH access, configuring the firewall, and securing the database to reduce potential attack vectors. The goal was to create a more resilient server setup that follows industry best practices.
 
-For a detailed walkthrough of the setup, configuration, and security validation steps, please click <a href="https://github.com/TomerZaibert/Ubuntu-Server-Hardening/blob/main/Project%20Write-Up.md">Project Write-Up. </a>
+For a full breakdown of the setup, configurations, and security checks, check out the <a href="https://github.com/TomerZaibert/Ubuntu-Server-Hardening/blob/main/Project%20Write-Up.md">Project Write-Up. </a>
+
+
+
+
